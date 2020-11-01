@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/_17sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:textColor="@color/colorGray"/>
+
+    <TextView
+        android:id="@+id/txtDummy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_text"
+        android:layout_below="@+id/txtName"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:textColor="@color/colorGray"/>
+
+    <TextView
+        android:id="@+id/txtQuestion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_2"
+        android:layout_below="@+id/txtDummy"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:textColor="@color/colorGray"/>
+
+    <TextView
+        android:id="@+id/txtAnswer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_below="@+id/txtQuestion2"
+        android:textSize="@dimen/_14sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:textColor="@color/colorGray"/>
+
+    <TextView
+        android:id="@+id/txtQuestion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_3"
+        android:layout_below="@+id/txtAnswer2"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:textColor="@color/colorGray"/>
+
+    <TextView
+        android:id="@+id/txtAnswer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/_14sdp"
+        android:layout_below="@+id/txtQuestion3"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:textColor="@color/colorGray"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAnswer3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12sdp"
+        android:text="@string/finish" />
+
+</RelativeLayout>

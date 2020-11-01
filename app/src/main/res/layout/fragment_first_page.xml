@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question_1"
+        android:textSize="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:textColor="@color/colorGray"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_below="@+id/txtQuestion"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_15sdp"
+        android:imeOptions="actionDone"
+        android:hint="@string/answer"
+        android:textColor="@color/colorGray"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12sdp"
+        android:text="@string/next" />
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:visibility="gone"
+        android:background="@drawable/button_background"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12sdp"
+        android:text="@string/history" />
+
+</RelativeLayout>
